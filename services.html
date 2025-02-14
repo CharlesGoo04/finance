@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Elite Capital Partners</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background-color: #1a1a1a;
+            padding: 1rem 5%;
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #c5a572;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 300;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #c5a572;
+        }
+
+        .service-hero {
+            padding-top: 100px;
+            background-color: #f9f9f9;
+        }
+
+        .service-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .service-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4rem;
+            background: #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .service-image {
+            flex: 1;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .service-content {
+            flex: 1;
+            padding: 2rem;
+        }
+
+        .service-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .service-description {
+            margin-bottom: 1.5rem;
+            color: #666;
+        }
+
+        .learn-more {
+            display: inline-block;
+            background-color: #c5a572;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+
+        .learn-more:hover {
+            background-color: #b08d5d;
+        }
+
+        .footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 3rem 5%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Elite Capital Partners</div>
+            <div class="nav-links">
+                <a href="Homepage.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="service-hero">
+        <div class="service-container">
+            <div class="service-item">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Wealth Management" class="service-image">
+                <div class="service-content">
+                    <h2 class="service-title">Wealth Management</h2>
+                    <p class="service-description">Our wealth management services provide comprehensive financial planning and investment strategies tailored to high-net-worth individuals. We focus on preserving and growing your wealth while considering your unique goals and risk tolerance.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-content">
+                    <h2 class="service-title">Investment Banking</h2>
+                    <p class="service-description">Our investment banking team provides strategic advisory services for complex financial transactions, including mergers and acquisitions, capital raising, and corporate restructuring. We leverage our global network to deliver exceptional results.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Investment Banking" class="service-image">
+            </div>
+
+            <div class="service-item">
+                <img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Private Equity" class="service-image">
+                <div class="service-content">
+                    <h2 class="service-title">Private Equity</h2>
+                    <p class="service-description">Access exclusive investment opportunities in high-growth private markets. Our private equity services connect sophisticated investors with carefully vetted opportunities across various sectors and stages of business development.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Elite Capital Partners. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
